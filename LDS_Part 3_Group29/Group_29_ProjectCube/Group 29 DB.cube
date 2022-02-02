@@ -1,0 +1,718 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2ff0101f-39ec-407a-adfa-d2974a19c46b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Group 29 DB</ID>
+  <Name>Group 29 DB</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="23" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6299" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="9398" y="11303" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Tournament" left="5420" top="10134" logicalid="11" controlid="1" masterid="0" hint1="0" hint2="0" width="3662" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004e0e0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Group29HWMart_Tournament" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Date" left="-1299" top="10103" logicalid="12" controlid="2" masterid="0" hint1="0" hint2="0" width="4245" height="3937" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000095100000610f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Group29HWMart_Date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Player" left="8792" top="4347" logicalid="13" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Group29HWMart_Player" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Geography" left="8792" top="0" logicalid="14" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Group29HWMart_Geography" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Match" left="1638" top="1142" logicalid="15" controlid="5" masterid="0" hint1="0" hint2="0" width="3683" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000630e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Group29HWMart_Match" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2646" top="10022" logicalid="16" controlid="6" masterid="0" hint1="0" hint2="0" width="3074" height="1735" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Tournament_Date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="15" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2946" y="10421" />
+              <point x="4183" y="10421" />
+              <point x="4183" y="11457" />
+              <point x="5420" y="11457" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3179" top="5842" logicalid="17" controlid="7" masterid="0" hint1="0" hint2="0" width="4472" height="4792" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Match_Tournament]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7251" y="10134" />
+              <point x="7251" y="8138" />
+              <point x="3479" y="8138" />
+              <point x="3479" y="6142" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9893" top="1448" logicalid="18" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Player_Geography]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10292" y="1947" />
+              <point x="10292" y="4347" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5021" top="4992" logicalid="19" controlid="9" masterid="0" hint1="0" hint2="0" width="4071" height="898" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Match_Player1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="12" destattachpoint="29" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8792" y="5490" />
+              <point x="7057" y="5490" />
+              <point x="7057" y="5292" />
+              <point x="5321" y="5292" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5021" top="4442" logicalid="20" controlid="10" masterid="0" hint1="0" hint2="0" width="4071" height="898" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Match_Player]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="10" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8792" y="4940" />
+              <point x="7057" y="4940" />
+              <point x="7057" y="4742" />
+              <point x="5321" y="4742" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-6299</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5000</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1299</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>85</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="2eb0fa24-5535-431f-b785-0a28380bba34">
+      <ID>Match</ID>
+      <Name>Match</Name>
+      <DimensionID>Match</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="58f96bdb-b364-4e3f-b37a-921207d78b59">
+          <AttributeID>Match Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3c3747e4-2586-4738-bfd2-f2aaedccb095">
+          <AttributeID>Player Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cacd0979-220b-4680-a68b-72b4eebbc10f">
+          <AttributeID>Country Ioc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a4e7f300-6eb9-4183-a0eb-113a3cd65740">
+          <AttributeID>Tourney Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3ebdd87d-17c6-4ca2-8e10-41ebf7b4446c">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9e95165b-8b06-4e9e-a44f-7191e7a0fb8e">
+          <AttributeID>Winner Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2255240e-13b0-4143-ac5b-eaee36a26973">
+          <AttributeID>Loser Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0307e466-7f38-4277-b30e-6c3c774cb82e">
+          <AttributeID>Score</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="94d5cd2b-d920-42ef-b089-825eddaa9a95">
+          <AttributeID>Best Of</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ed0aec1a-526d-47eb-8fff-c34713d0f17b">
+          <AttributeID>Round</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8857b707-1393-4296-be1d-02f27f7206ff">
+          <AttributeID>Minutes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b3f1d863-4f17-4865-b2f4-fd64ad5cd386">
+          <AttributeID>w Ace</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2fd75692-1fcb-41c5-93c1-1d8543f0a943">
+          <AttributeID>w Df</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3ff53f81-878a-4928-a64c-d4fba364e8fb">
+          <AttributeID>w Svpt</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c0a7c2da-c6a5-4ce3-b91e-6ba167352971">
+          <AttributeID>w 1st In</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5218a7fc-72ec-4d00-a612-7e3e0f18ac48">
+          <AttributeID>w 1st Won</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f3af13a3-701f-4c6f-b7dd-5c2aa8dcf30c">
+          <AttributeID>w 2nd Won</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1c6ba5e9-3e03-4186-8ef7-ff4cfeb25e6d">
+          <AttributeID>w Sv Gms</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cbc534ac-a877-4128-96a0-dfe6946415cd">
+          <AttributeID>w Bp Saved</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fdbdf382-b99e-42c8-82a7-c2582cbfdaa7">
+          <AttributeID>w Bp Faced</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e677906c-008a-4c4f-9997-b021333da977">
+          <AttributeID>l Ace</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1cf40016-5cca-4a34-a0c3-1f6ed57e372e">
+          <AttributeID>l Df</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a82843e7-e031-43d3-877e-3ce2e71dc6b3">
+          <AttributeID>l Svpt</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c0946f04-1f7c-4548-bf3f-9bf71c5e259d">
+          <AttributeID>l 1st In</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="454b10ea-b4d8-43a4-9d9c-eb438e228ca3">
+          <AttributeID>l 2nd Won</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1140394d-6023-4c19-978c-c79c3ddd6443">
+          <AttributeID>l 1st Won</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="65ba8bbb-b28e-46fd-8996-8cf8e2a5b4fa">
+          <AttributeID>l Sv Gms</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e1001f13-e0d4-4666-adc9-6d99224c4af6">
+          <AttributeID>l Bp Saved</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f72e0072-13e5-4446-8cbf-061426898d0b">
+          <AttributeID>l Bp Faced</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="95b06d50-83c5-4a61-a879-e75d72f58c52">
+          <AttributeID>Winner Rank</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e174b421-0d96-4feb-a871-f210ce794016">
+          <AttributeID>Winner Rank Points</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5aa437d4-0c90-4b2b-907a-bb4a57c54fe0">
+          <AttributeID>Loser Rank</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7d9e81e9-19b2-404e-80e4-9b3b7eb2f038">
+          <AttributeID>Loser Rank Points</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="fb3fef13-3999-4222-89bb-e4cb9fb9ab4f">
+      <ID>Loser</ID>
+      <Name>Loser</Name>
+      <DimensionID>Player</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="eb5084e3-d3e7-4088-b56b-d6c9586d4787">
+          <AttributeID>Player Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="28b288c2-b819-4dbc-86c2-c98567bc06bb">
+          <AttributeID>Country Ioc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="275ac334-5f3e-4f7e-a247-ba481017672f">
+          <AttributeID>Country Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="748c5870-1ccd-415d-aa56-ecdcbc35a3d2">
+          <AttributeID>Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0aa3a075-8848-4376-8179-ba08b0b6af6d">
+          <AttributeID>Sex</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1c78416e-7511-4250-8615-5b75593b2624">
+          <AttributeID>Hand</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a6c19433-fbf4-42ff-9082-790ec587eb2a">
+          <AttributeID>Ht</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="54962195-f167-430c-9852-515dd77dd0b7">
+          <AttributeID>Year Of Birth</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e5f07053-d2a0-45fa-a1e1-d2cdf92ed11a">
+          <AttributeID>Continent</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="86635a3f-f261-4a03-8ac9-245a36c6178f">
+          <AttributeID>Language</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="4afd2e02-fd1c-4565-8444-3acad85db193">
+          <HierarchyID>Gerarchia 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="8f6d5402-8620-4553-b602-e84ad5abe972">
+      <ID>Winner</ID>
+      <Name>Winner</Name>
+      <DimensionID>Player</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5ef1465f-f464-4eae-a6cf-6fabb4205c59">
+          <AttributeID>Player Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b8c2a292-32af-40f5-87cf-373748c3c015">
+          <AttributeID>Country Ioc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5b36a0f6-e582-4959-a7cc-15cbe495bd0a">
+          <AttributeID>Country Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="743437b5-e122-4599-9d53-e01a17bb496d">
+          <AttributeID>Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8ad02134-97b7-4fee-b2a5-0c4920531887">
+          <AttributeID>Sex</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="12d3020b-5a64-4901-83f8-fe1abc3613ee">
+          <AttributeID>Hand</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5ceec3bd-9f5d-49c8-85b2-0410d1839181">
+          <AttributeID>Ht</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da35ade4-f182-4048-94da-470f0bfd457a">
+          <AttributeID>Year Of Birth</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c551ee3a-fafe-4b02-93d3-06585f4f9389">
+          <AttributeID>Continent</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ff7f8364-5cdc-4666-a8a7-643cd26562d6">
+          <AttributeID>Language</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="048a7f69-6dfc-4a77-936d-9babd50d4b03">
+          <HierarchyID>Gerarchia 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="60ed1af3-9487-4068-8166-417bb358c1ea">
+      <ID>Tournament</ID>
+      <Name>Tournament</Name>
+      <DimensionID>Tournament</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="725c791b-39d5-4e4e-ba0d-d5ab6465307a">
+          <AttributeID>Tourney Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a216418a-20db-4102-a8b8-dd88b98379f0">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d764231e-eb9e-40a6-a143-463a4f2ddb85">
+          <AttributeID>Tourney Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc2f0c6e-426e-4e00-a5b6-48997f09ea65">
+          <AttributeID>Surface</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bde91da4-44d0-4711-932c-ca2abaf06c96">
+          <AttributeID>Draw Size</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="df290b2d-e244-4687-a90d-bd115108db5b">
+          <AttributeID>Tourney Level</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d0c725a2-f759-405a-a91b-dbd479a2b99d">
+          <AttributeID>Tourney Spectators</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9d02504f-3f83-4863-a313-dca9a9d8dcd6">
+          <AttributeID>Tourney Revenue</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="be0fe922-a387-41a1-ae3d-b4795dd1ef23">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5368fd8d-36b3-489a-b04e-6562a6e66423">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b7781198-496f-4a60-85a0-4416f444d698">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c6d323ce-d97e-41a3-acd9-0a8668f18646">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e9dbe568-e39e-48ed-97c1-da8f0b91e3e2">
+          <AttributeID>Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="30832233-9128-4195-9aa3-f8e2c51fe946">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4ad9451a-9c60-4a83-b5a1-0b36345f40c8">
+          <AttributeID>Day Name</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e96db1c1-d444-45cc-9b45-9802c068a5f4">
+          <HierarchyID>Gerarchia</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="d7fe7bf5-a330-4887-9c3c-8c12a9e425eb">
+      <ID>Match</ID>
+      <Name>Winner and loser rank and points Measures</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="424f82dc-9092-4954-baf2-a3f8a5bc8164">
+          <ID>Winner Rank</ID>
+          <Name>Winner Rank</Name>
+          <Source dwd:design-time-name="83641de4-afc4-4eb9-95db-0b89f810d179">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6ab1dc7b-8804-4cf4-853a-9e3fb28876b1">
+              <TableID>Group29HWMart_Match</TableID>
+              <ColumnID>winner_rank</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e6b68101-cff3-479d-8730-1b4306467af4">
+          <ID>Winner Rank Points</ID>
+          <Name>Winner Rank Points</Name>
+          <Source dwd:design-time-name="4ea2c233-ce9a-4e32-adaf-7673f1d96784">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="444dca7f-5634-4d26-9153-bd63d3ac4db5">
+              <TableID>Group29HWMart_Match</TableID>
+              <ColumnID>winner_rank_points</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="38493c15-d5ab-4d6c-a54c-1860ed3e2a08">
+          <ID>Loser Rank</ID>
+          <Name>Loser Rank</Name>
+          <Source dwd:design-time-name="7f6efbe5-7fbd-488d-8c92-ecac768a3875">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="51285f35-7a05-49a4-929a-9bc8f518c4be">
+              <TableID>Group29HWMart_Match</TableID>
+              <ColumnID>loser_rank</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1591ce99-0be5-46f2-b814-e2083f015759">
+          <ID>Loser Rank Points</ID>
+          <Name>Loser Rank Points</Name>
+          <Source dwd:design-time-name="966535e8-5e0d-4d19-b1f7-be86aee576e0">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="54016b5e-c105-4c9f-b727-bb0128ef7b10">
+              <TableID>Group29HWMart_Match</TableID>
+              <ColumnID>loser_rank_points</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="6f0cde00-1bb2-4e50-b5b5-42bb59057370">
+          <CubeDimensionID>Match</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6c5e38af-7ce2-4a48-a478-e74c9d786ac6">
+              <AttributeID>Match Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="63ca4896-7682-445a-a7c4-769f6516852f">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e7e9828d-6854-4d22-8ee4-645f9b837fa7">
+                    <TableID>Group29HWMart_Match</TableID>
+                    <ColumnID>match_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c9443f3a-62a2-4833-b4e7-a5634807d1d2">
+          <CubeDimensionID>Loser</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8df456ef-e280-4f31-964b-3eca7b145746">
+              <AttributeID>Player Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bcbbfa2c-43c2-4459-836e-bfaaa4011a2b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ee5ebf0c-5512-4283-ad53-2e36977638c2">
+                    <TableID>Group29HWMart_Match</TableID>
+                    <ColumnID>loser_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="19d6d201-65d0-4e08-9702-49bf417d947b">
+          <CubeDimensionID>Winner</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e39e4bc8-5054-42f5-9021-c54215ad5b44">
+              <AttributeID>Player Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6b767269-f052-4edf-9040-82de72a05634">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="83b7af18-1649-44b2-a922-2e5b7e48fd49">
+                    <TableID>Group29HWMart_Match</TableID>
+                    <ColumnID>winner_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8456df84-a1f6-4fe1-973a-658916ddf04d">
+          <CubeDimensionID>Tournament</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="17e24a6f-6e80-48fd-a5f1-550a1efa13f4">
+              <AttributeID>Tourney Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f0f39c50-d7f0-4764-a6c0-33d236a761c2">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a89f55c6-f587-47a5-ad8f-3d02323a9662">
+                    <TableID>Group29HWMart_Match</TableID>
+                    <ColumnID>tourney_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="23870a59-b913-4768-84e8-03b8b5f2a424">
+      <ID>Match 1</ID>
+      <Name>Winner Measures assignment 3</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="54f961ec-eaf2-4bad-b3f7-eaef3512a31c">
+          <ID>Conteggio valori univoci di Winner Id</ID>
+          <Name>Distinct_Winners</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="8b3eaaf5-94de-4ab8-997c-394751233146">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bc901c81-1bd5-4005-ab42-fa6eebc7225a">
+              <TableID>Group29HWMart_Match</TableID>
+              <ColumnID>winner_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="6099577e-ca39-440c-8200-b81ead863ff9">
+          <CubeDimensionID>Match</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e76156e2-3e8b-4f49-8dd0-edd9e1ace149">
+              <AttributeID>Match Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="08378abe-0ff3-4183-9802-b08dcc9620dd">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dc3c36e6-b7f9-405d-8a9b-81c6833908cc">
+                    <TableID>Group29HWMart_Match</TableID>
+                    <ColumnID>match_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b2e5399b-ae0a-4c0e-b228-76178bd87f71">
+          <CubeDimensionID>Loser</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="88550d7f-bb71-4c42-ae12-9d34f02cc70e">
+              <AttributeID>Player Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="72911986-fee8-4fa4-99d8-5a35cf08ae81">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="72f8d316-9c86-421d-997c-c07cf42e4420">
+                    <TableID>Group29HWMart_Match</TableID>
+                    <ColumnID>loser_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d7d8293b-847a-488a-b325-9ba4a33ef705">
+          <CubeDimensionID>Winner</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0db0a2d5-3927-48d3-98d2-3278572e6384">
+              <AttributeID>Player Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7bf87103-0463-405b-b909-2c669e33ca82">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a07cce26-cf61-481e-9d70-b0f91bef3d66">
+                    <TableID>Group29HWMart_Match</TableID>
+                    <ColumnID>winner_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3af44219-beb9-4336-b8ff-9caddc74c10c">
+          <CubeDimensionID>Tournament</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6eadba6a-dc25-47c2-b965-5dd354814959">
+              <AttributeID>Tourney Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d4b91c65-901e-4553-9f4c-8aa6a52adb2f">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="11694d50-4ead-41e1-9515-a331fbd22264">
+                    <TableID>Group29HWMart_Match</TableID>
+                    <ColumnID>tourney_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="a3326350-f9a0-4267-af0c-6a41576514e4">
+    <DataSourceViewID>Group 29 DB</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="4992174a-45d2-4ce5-a0a4-e0d1fc06cbbe">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>CALCULATE;      
+CREATE MEMBER CURRENTCUBE.[Measures].[Distinct_player_filter]
+ AS distinctcount(filter([Match].[Winner Id].members, [Measures].[Winner Rank Points])), 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Match'  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

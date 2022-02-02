@@ -1,0 +1,18 @@
+with member overall_points as
+sum(([Tournament].[Year].currentmember,[Winner].[Continent].currentmember, [Winner].[Player Id].currentmember.parent), 
+[Measures].[Winner Rank Points])
+
+
+member Distinct_total_winners_ByContinent_ByYear as 
+(([Tournament].[Year].currentmember, [Winner].[Continent].currentmember, [Winner].[Player Id].currentmember.parent),
+[Measures].[Distinct_Winners])
+
+member avg_continentPoints as overall_points/Distinct_total_winners_ByContinent_ByYear
+,format_string = "#,##0.00"
+
+
+select {Distinct_total_winners_ByContinent_ByYear,overall_points, [Measures].[Winner Rank Points],avg_continentPoints} on columns,
+
+filter(nonempty(([Tournament].[Year].[Year], [Winner].[Continent].[Continent], 
+[Winner].[Player Id].[Player Id])), [Measures].[Winner Rank Points] > avg_continentPoints)
+on rows from [Group 29 DB];

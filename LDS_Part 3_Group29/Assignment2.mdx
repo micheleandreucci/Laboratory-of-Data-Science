@@ -1,0 +1,7 @@
+with member total_rank as 
+([Tournament].[Year].currentMember.lag(0), [Tournament].[Tourney Id].currentMember.parent,
+[Measures].[Winner Rank Points]) 
+member perc as [Measures].[Winner Rank Points]/total_rank, format_string="percent" 
+
+select {[Measures].[Winner Rank Points], total_rank, perc} on columns, 
+Nonemptycrossjoin([Tournament].[Year].[Year],[Tournament].[Tourney Id].[Tourney Id]) on rows from [Group 29 DB];

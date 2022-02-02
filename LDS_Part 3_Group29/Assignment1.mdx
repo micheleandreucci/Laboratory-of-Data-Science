@@ -1,0 +1,9 @@
+with member previous as 
+([Tournament].[Year].currentMember.lag(1), [Measures].[Loser Rank Points]) 
+
+member perc as ([Measures].[Loser Rank Points] - previous)/ previous , 
+format_string="percent" 
+
+select ([Tournament].[Year].[Year], perc) on columns, 
+NonEmptyCrossJoin([Match].[Loser Id].[Loser Id])
+on rows from [Group 29 DB];
