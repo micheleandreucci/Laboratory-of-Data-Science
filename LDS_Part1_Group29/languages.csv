@@ -1,0 +1,231 @@
+,ID,country_name,Alpha-2 code,lang_name,Alpha-3 code
+0,1,Afghanistan,AF,Pashto,AFG
+1,2,Albania,AL,Albanian,ALB
+2,3,Algeria,DZ,Tamazight (Latin),DZA
+3,4,American Samoa,AS,English(Samoan),ASM
+4,5,Andorra,AD,Catalan ,AND
+5,6,Angola,AO,Portuguese ,AGO
+6,7,Anguilla,AI,English ,AIA
+7,8,Antigua and Barbuda,AG,English ,ATG
+8,9,Argentina,AR,Spanish,ARG
+9,10,Armenia,AM,Armenian,ARM
+10,11,Aruba,AW,Dutch ,ABW
+11,12,Australia,AU,English,AUS
+12,13,Austria,AT,German,AUT
+13,14,Azerbaijan,AZ,Azeri (Latin),AZE
+14,15,Bahamas,BS,English ,BHS
+15,16,Bahrain,BH,Arabic,BHR
+16,17,Bangladesh,BD,Bengali,BGD
+17,18,Barbados,BB,English ,BRB
+18,19,Belarus,BY,Belarusian,BLR
+19,20,Belgium,BE,French,BEL
+20,21,Belize,BZ,English,BLZ
+21,22,Benin,BJ,French ,BEN
+22,23,Bermuda,BM,English ,BMU
+23,24,Bhutan,BT,dzongkha ,BTN
+24,25,Bolivia,BO,Spanish,BOL
+25,26,Bosnia and Herzegovina,BA,Serbian (Latin),BIH
+26,27,Botswana,BW,English ,BWA
+27,28,Brazil,BR,Portuguese,BRA
+28,29,British Indian Ocean Territory,IO, ,IOT
+29,30,British Virgin Islands,VG, ,VGB
+30,31,Brunei,BN,Malay,BRN
+31,32,Bulgaria,BG,Bulgarian,BGR
+32,33,Burkina Faso,BF,French ,BFA
+33,34,Burma-Myanmar,MM,Burmese ,MMR
+34,35,Burundi,BI,kirundi English French,BDI
+35,36,Cambodia,KH,Khmer,KHM
+36,37,Cameroon,CM,French English ,CMR
+37,38,Canada,CA,Mohawk,CAN
+38,39,Cape Verde,CV, ,CPV
+39,40,Cayman Islands,KY, ,CYM
+40,41,Central African Republic,CF, ,CAF
+41,42,Chad,TD, ,TCD
+42,43,Chile,CL,Spanish,CHL
+43,44,China,CN,Yi,CHN
+44,45,Christmas Island,CX, ,CXR
+45,46,Colombia,CO,Spanish,COL
+46,47,Comoros,KM, ,COM
+47,48,Congo,CG, ,COG
+48,49,Congo (The Democratic Republic),CD, ,COD
+49,50,Cook Islands,CK, ,COK
+50,51,Costa Rica,CR,Spanish,CRI
+51,52,Croatia,HR,Croatian,HRV
+52,53,Cuba,CU, ,CUB
+53,54,Cyprus,CY, ,CYP
+54,55,Czech Republic,CZ,Czech,CZE
+55,56,Denmark,DK,Danish,DNK
+56,57,Djibouti,DJ, ,DJI
+57,58,Dominica,DM, ,DMA
+58,59,Dominican Republic,DO,Spanish,DOM
+59,60,Dominican Republic,DO,Spanish,DOM
+60,61,Dominican Republic,DO,Spanish,DOM
+61,62,East Timor,TL, ,TLS
+62,63,Ecuador,EC,Spanish,ECU
+63,64,Egypt,EG,Arabic,EGY
+64,65,El Salvador,SV,Spanish,SLV
+65,66,Equatorial Guinea,GQ, ,GNQ
+66,67,Eritrea,ER, ,ERI
+67,68,Estonia,EE,Estonian,EST
+68,69,Ethiopia,ET,Amharic,ETH
+69,70,Faroe Islands,FO,Faroese,FRO
+70,71,Fiji,FJ, ,FJI
+71,72,Finland,FI,Swedish,FIN
+72,73,France,FR,Occitan,FRA
+73,74,French Guiana,GF, ,GUF
+74,75,French Polynesia,PF, ,PYF
+75,76,Gabon,GA, ,GAB
+76,77,Gambia,GM, ,GMB
+77,78,Georgia,GE,Georgian,GEO
+78,79,Germany,DE,Upper sorbian,DEU
+79,80,Ghana,GH, ,GHA
+80,81,Gibraltar,GI, ,GIB
+81,82,Greece,GR,Greek,GRC
+82,83,Greenland,GL,Greenlandic,GRL
+83,84,Grenada,GD, ,GRD
+84,85,Guadeloupe,GP, ,GLP
+85,86,Guam,GU, ,GUM
+86,87,Guatemala,GT,Spanish,GTM
+87,88,Guinea,GN, ,GIN
+88,89,Guinea-Bissau,GW, ,GNB
+89,90,Guyana,GY, ,GUY
+90,91,Haiti,HT, ,HTI
+91,92,Honduras,HN,Spanish,HND
+92,93,Hong Kong,HK,Chinese (Traditional) legacy,HKG
+93,94,Hungary,HU,Hungarian,HUN
+94,95,Iceland,IS,Icelandic,ISL
+95,96,India,IN,Telugu,IND
+96,97,Indonesia,ID,Indonesian,IDN
+97,98,Iran,IR,Persian,IRN
+98,99,Iraq,IQ,Arabic,IRQ
+99,100,Ireland,IE,Irish,IRL
+100,101,Israel,IL,Hebrew,ISR
+101,102,Italy,IT,Italian,ITA
+102,103,Ivory Coast,CI, ,CIV
+103,104,Jamaica,JM,English,JAM
+104,105,Japan,JP,Japanese,JPN
+105,106,Jordan,JO,Arabic,JOR
+106,107,Kazakhstan,KZ,Kazakh,KAZ
+107,108,Kenya,KE,Kiswahili,KEN
+108,109,Kiribati,KI, ,KIR
+109,110,Kuwait,KW,Arabic,KWT
+110,111,Kyrgyzstan,KG,Kyrgyz,KGZ
+111,112,Laos,LA,Lao,LAO
+112,113,Latvia,LV,Latvian,LVA
+113,114,Lebanon,LB,Arabic,LBN
+114,115,Lesotho,LS, ,LSO
+115,116,Liberia,LR, ,LBR
+116,117,Libya,LY,Arabic,LBY
+117,118,Liechtenstein,LI,German,LIE
+118,119,Lithuania,LT,Lithuanian,LTU
+119,120,Luxembourg,LU,Luxembourgish,LUX
+120,121,Macau,MO,Chinese (Traditional) legacy,MAC
+121,122,Macedonia,MK,Macedonian (fyrom),MKD
+122,123,Madagascar,MG, ,MDG
+123,124,Malawi,MW, ,MWI
+124,125,Malaysia,MY,Malay,MYS
+125,126,Maldives,MV,Divehi,MDV
+126,127,Mali,ML, ,MLI
+127,128,Malta,MT,Maltese,MLT
+128,129,Marshall Islands,MH, ,MHL
+129,130,Martinique,MQ, ,MTQ
+130,131,Mauritania,MR, ,MRT
+131,132,Mauritius,MU, ,MUS
+132,133,Mayotte,YT, ,MYT
+133,134,Mexico,MX,Spanish,MEX
+134,135,Moldova,MD, ,MDA
+135,136,Monaco,MC,French,MCO
+136,137,Mongolia,MN,Mongolian (Cyrillic),MNG
+137,138,Montenegro,ME,Serbian (Latin),MNE
+138,139,Montserrat,MS, ,MSR
+139,140,Morocco,MA,Arabic,MAR
+140,141,Mozambique,MZ, ,MOZ
+141,143,Nauru,NR, ,NRU
+142,144,Nepal,NP,Nepali,NPL
+143,145,Netherlands,NL,Frisian,NLD
+144,147,New Caledonia,NC, ,NCL
+145,148,New Zealand,NZ,Maori,NZL
+146,149,Nicaragua,NI,Spanish,NIC
+147,150,Niger,NE, ,NER
+148,151,Nigeria,NG,Yoruba,NGA
+149,152,Niue,NU, ,NIU
+150,153,Norfolk Island,NF, ,NFK
+151,154,Northern Mariana Islands,MP, ,MNP
+152,155,North Korea,KP, ,PRK
+153,156,Norway,NO,Sami (Southern),NOR
+154,157,Oman,OM,Arabic,OMN
+155,158,Pakistan,PK,Urdu,PAK
+156,159,Palau,PW, ,PLW
+157,160,Palestine,PS, ,PSE
+158,161,Panama,PA,Spanish,PAN
+159,162,Papua New Guinea,PG, ,PNG
+160,163,Paraguay,PY,Spanish,PRY
+161,164,Peru,PE,Spanish,PER
+162,165,Philippines,PH,English,PHL
+163,166,Pitcairn Islands,PN, ,PCN
+164,167,Poland,PL,Polish,POL
+165,168,Portugal,PT,Portuguese,PRT
+166,169,Puerto Rico,PR,Spanish,PRI
+167,170,Qatar,QA,Arabic,QAT
+168,171,R��union,RE, ,REU
+169,172,Romania,RO,Romanian,ROU
+170,173,Russia,RU,Yakut,RUS
+171,174,Rwanda,RW,Kinyarwanda,RWA
+172,175,Saint Helena,SH, ,SHN
+173,176,Saint Kitts and Nevis,KN, ,KNA
+174,177,Saint Lucia,LC, ,LCA
+175,178,Saint Martin,MF, ,MAF
+176,179,Saint Pierre and Miquelon,PM, ,SPM
+177,180,Saint Vincent and the Grenadines,VC, ,VCT
+178,181,Samoa,WS, ,WSM
+179,182,San Marino,SM, ,SMR
+180,183,S��o Tom�� and Pr�_ncipe,ST, ,STP
+181,184,Saudi Arabia,SA,Arabic,SAU
+182,185,Senegal,SN,Wolof,SEN
+183,186,Serbia,RS,Serbian (Latin),SRB
+184,187,Seychelles,SC, ,SYC
+185,188,Falkland Islands,FK, ,FLK
+186,189,Sierra Leone,SL, ,SLE
+187,190,Singapore,SG,English,SGP
+188,191,Slovakia,SK,Slovak,SVK
+189,192,Slovenia,SI,Slovenian,SVN
+190,193,Solomon Islands,SB, ,SLB
+191,194,Somalia,SO,Somala ,SOM
+192,195,South Africa,ZA,Setswana,ZAF
+193,196,South Korea,KR,Korean,KOR
+194,198,Spain,ES,Spanish,ESP
+195,199,Sri Lanka,LK,Sinhala,LKA
+196,200,Sudan,SD,(Arabic English) ,SDN
+197,201,Suriname,SR,Dutch ,SUR
+198,202,Swaziland,SZ, ,SWZ
+199,203,Sweden,SE,Swedish,SWE
+200,204,Switzerland,CH,Romansh,CHE
+201,205,Syria,SY,Syriac,SYR
+202,206,Taiwan,TW,Chinese (Traditional) legacy,TWN
+203,207,Tajikistan,TJ,Tajik (Cyrillic),TJK
+204,208,Tanzania,TZ,(English SWAHILI) ,TZA
+205,209,Thailand,TH,Thai,THA
+206,210,Togo,TG,French ,TGO
+207,211,Tokelau,TK,(English Tokelauana) ,TKL
+208,212,Tonga,TO,(Tongana English) ,TON
+209,213,Trinidad and Tobago,TT,English,TTO
+210,214,Tunisia,TN,Arabic,TUN
+211,215,Turkey,TR,Turkish,TUR
+212,216,Turkmenistan,TM,Turkmen,TKM
+213,217,Turks and Caicos Islands,TC,English ,TCA
+214,218,Tuvalu,TV,(English Tuvaluana) ,TUV
+215,219,Uganda,UG,(English Swahili) ,UGA
+216,220,United Kingdom,GB,Welsh,GBR
+217,221,Ukraine,UA,Ukrainian,UKR
+218,222,United Arab Emirates,AE,Arabic,ARE
+219,223,Uruguay,UY,Spanish,URY
+220,224,United States,US,English,USA
+221,225,Uzbekistan,UZ,Uzbek (Latin),UZB
+222,226,Vanuatu,VU,(bislama French English) ,VUT
+223,227,Venezuela,VE,Spanish,VEN
+224,228,Vietnam,VN,Vietnamese,VNM
+225,229,Virgin Islands,VI,English ,VIR
+226,230,Wallis and Futuna,WF,French ,WLF
+227,231,Yemen,YE,Arabic,YEM
+228,232,Zambia,ZM,English,ZMB
+229,233,Zimbabwe,ZW,English,ZWE
